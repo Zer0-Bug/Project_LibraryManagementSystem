@@ -1,0 +1,35 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_personel
+
+@{
+    ViewBag.Title = "PersonelGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+@using (Html.BeginForm("PersonelGuncelle", "Personel", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        @Html.LabelFor(k => k.PersonelID)
+        @Html.TextBoxFor(k => k.PersonelID, new { @class = "form-control", @readonly = "readonly" })
+    </div>/*labelfor amacı sütunun adı ne ise onu getirmek database de ki sütun adı
+text box for amacı da içinde gecerli olan degeri getirmek yani kutucuğun içinin dolu olmasını sağlıyo*/
+
+<div class="form-group">
+    <label>Personel Adı Ve Soyadı</label>
+    @Html.TextBoxFor(k => k.PersonelAdSoyad, new { @class = "form-control" })
+</div>
+<div class="form-group">
+    <label>Email</label>
+    @Html.TextBoxFor(k => k.PersonelEmail, new { @class = "form-control" })
+</div>
+<div class="form-group">
+    <label>Şifre</label>
+    <input type="text" name="PersonelPassword" value="" class="form-control"/>
+    @Html.ValidationMessageFor(x => x.PersonelPassword, "", new { @style = "color:red" })
+</div>
+<div>
+
+    
+    <button class="btn btn-warning">Güncelle</button>
+</div>
+}
+

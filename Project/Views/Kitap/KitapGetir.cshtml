@@ -1,0 +1,54 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_kitap
+@{
+    ViewBag.Title = "KitapGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+@using (Html.BeginForm("KitapGuncelle", "Kitap", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Kitap ID</label>
+            @Html.TextBoxFor(k => k.KitapID, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Kitap Adı</label>
+            @Html.TextBoxFor(k => k.KitapAd, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Kategori</label>
+            @Html.DropDownListFor(k => k.Tbl_kategori.ID, (List<SelectListItem>)ViewBag.dgr1,
+       new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yazar </label>
+            @Html.DropDownListFor(k => k.Tbl_yazar.YazarID, (List<SelectListItem>)ViewBag.dgr2,
+             new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Basım Yılı </label>
+            @Html.TextBoxFor(k => k.BasımYıl, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yayınevi </label>
+            @Html.TextBoxFor(k => k.Yayınevi, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Sayfa Sayısı </label>
+            @Html.TextBoxFor(k => k.SayfaSayısı, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-warning">Kitap Bilgilerini Güncelle</button>
+    </div>
+}
+
+

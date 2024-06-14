@@ -1,0 +1,53 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_Hareket
+
+@{
+    ViewBag.Title = "OduncIade";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("OduncGuncelle", "Odunc", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        <label>Hareket ID</label>
+        @Html.TextBoxFor(k => k.HareketID, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+    <div class="form-group">
+        <label>Kitap ID</label>
+        @Html.TextBoxFor(k => k.Tbl_kitap.KitapID, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Kitap Adı</label>
+        @Html.TextBoxFor(k => k.Tbl_kitap.KitapAd, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Üye</label>
+        @Html.TextBoxFor(k => k.Tbl_üyeler.ÜyeAd, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Personel </label>
+        @Html.TextBoxFor(k => k.Tbl_personel.PersonelAdSoyad, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Alış Tarihi</label>
+        @Html.TextBoxFor(k => k.AlısTarih, "{0: dd.MM.yyyy}", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Getirmesi gereken son İade Tarihi</label>
+        @Html.TextBoxFor(k => k.İadeTarih, "{0: dd.MM.yyyy}", new { @class = "form-control" })
+    </div>
+    <input type="hidden" name="Üye" value="@Model.Üye" />
+
+    <div class="form-group">
+        <label>Üyenin Getirdiği Tarih</label>
+        <input type="text" class="form-control" name="UyeGetirmeTarih" value="@DateTime.Now.ToShortDateString()" />
+        <br />
+        <label>Geç Gelen Gün Sayısı</label>
+        <input type="text" class="form-control" id="gec" value="@ViewBag.dgr" />
+    </div>
+    <div>
+        <button class="btn btn-warning">Ödünç Kitabı Geri al</button>
+    </div>
+}
+
+

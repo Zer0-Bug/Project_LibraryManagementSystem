@@ -1,0 +1,37 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_yazar
+@{
+    ViewBag.Title = "YazarGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("YazarGuncelle", "Yazar", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yazar ID</label>
+            @Html.TextBoxFor(y => y.YazarID, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yazar Adı</label>
+            @Html.TextBoxFor(y => y.YazarAd, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yazar Soyadı</label>
+            @Html.TextBoxFor(y => y.YazarSoyad, new { @class = "form-control" })
+        </div>
+        <div>
+            <div style="margin-bottom:15px"></div>
+            <label>Yazar Detay</label>
+            @Html.TextAreaFor(y => y.Detay, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn-warning">Yazar Bilgilerini Güncelle</button>
+    </div>
+}
+

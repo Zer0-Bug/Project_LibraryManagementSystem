@@ -1,0 +1,42 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_kitap
+@{
+    ViewBag.Title = "KitapEkle";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Yeni Kitap Ekle</h2>
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>Kitap Adı </label>
+        @Html.TextBoxFor(k => k.KitapAd, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Kitap Kategorisi </label>
+        @Html.DropDownListFor(k => k.Tbl_kategori.ID,(List<SelectListItem>)ViewBag.dgr1,
+       new {@class="form-control"})
+    </div>
+    <div style="margin-top:15px">
+        <label>Yazar </label>
+        @Html.DropDownListFor(k => k.Tbl_yazar.YazarID, (List<SelectListItem>)ViewBag.dgr2,
+              new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Basım Yılı </label>
+        @Html.TextBoxFor(k => k.BasımYıl, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Yayınevi </label>
+        @Html.TextBoxFor(k => k.Yayınevi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Sayfa Sayısı </label>
+        @Html.TextBoxFor(k => k.SayfaSayısı, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn1">Kitap ekle</button>
+
+    </div>
+    <input type="hidden" name="durum" value="True"/> @* gizli deger seklinde true yapıyo*@
+
+</form>

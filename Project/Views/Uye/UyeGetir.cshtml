@@ -1,0 +1,47 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_üyeler
+
+@{
+    ViewBag.Title = "UyeGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("UyeGuncelle", "Uye", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        @Html.LabelFor(k => k.ÜyeID)
+        @Html.TextBoxFor(k => k.ÜyeID, new { @class = "form-control", @readonly = "readonly"})
+    </div>
+
+    <div class="form-group">
+        <label>Üye Adı</label>
+        @Html.TextBoxFor(k => k.ÜyeAd, new { @class = "form-control" })
+        <br />
+        <label>Üye Soyadı</label>
+        @Html.TextBoxFor(k => k.ÜyeSoyad, new { @class = "form-control" })
+        <br />
+        <label>Üye Maili</label>
+        @Html.TextBoxFor(k => k.ÜyeMail, new { @class = "form-control" })
+        <br />
+        <label>Üye Kullanıcı Adı</label>
+        @Html.TextBoxFor(k => k.KullanıcıAd, new { @class = "form-control" })
+        <br />
+        <label>Üye Şifre</label>
+        <input type="text" class="form-control" name="ÜyeSifre" value=""/>
+        @Html.ValidationMessageFor(x => x.ÜyeSifre, "", new { @style = "color:red" })
+        <br />
+        <label>Üye Okul</label>
+        @Html.TextBoxFor(k => k.okul, new { @class = "form-control" })
+        <br />
+        <label>Üye Telefon</label>
+        @Html.TextBoxFor(k => k.Tel, new { @class = "form-control" })
+        <br />
+        <label>Üye Fotografı</label>
+        @Html.TextBoxFor(k => k.Foto, new { @class = "form-control" })
+        <br />
+    </div>
+<div>
+    <button class="btn btn-warning">Güncelle</button>
+</div>
+}
+

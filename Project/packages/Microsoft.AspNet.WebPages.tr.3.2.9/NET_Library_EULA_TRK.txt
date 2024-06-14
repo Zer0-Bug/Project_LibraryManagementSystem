@@ -1,0 +1,128 @@
+﻿MICROSOFT YAZILIMI LİSANS ŞARTLARI
+MICROSOFT .NET KİTAPLIĞI
+Bu lisans şartları, sizinle Microsoft Corporation (veya yaşadığınız yere göre Microsoft Corporation'ın bir 
+bağlı kuruluşu) arasında yapılan sözleşmeyi oluşturur. Bu şartlar, yukarıda adı geçen yazılım için 
+geçerlidir. Şartlar, yazılım için tüm Microsoft hizmetleri veya güncelleştirmeleri için, beraberlerinde farklı 
+şartlar bulunmadığı sürece geçerlidir.
+BU LİSANS ŞARTLARINA UYDUĞUNUZ TAKDİRDE AŞAĞIDAKİ HAKLARA SAHİP OLURSUNUZ.
+1.	YÜKLEME VE KULLANIM HAKLARI. 
+Yazılımın istediğiniz sayıda kopyasını, uygulamalarınızı geliştirmek ve test etmek için oluşturabilir ve 
+kullanabilirsiniz. 
+2.	ÜÇÜNCÜ TARAF BİLEŞENLERİ. . Yazılım, beraberinde bulunan ThirdPartyNotices dosyalarında 
+açıklanmış olabileceği gibi, ayrı yasal bildirimlere sahip veya başka sözleşmelerce yönetilen üçüncü taraf 
+bileşenleri içerebilir.
+3.	EK LİSANS GEREKLERİ VE/VEYA KULLANIM HAKLARI. 
+a.	DAĞITILABİLİR KOD. Yazılım, Dağıtılabilir Kod’dan oluşur. “Dağıtılabilir Kod”, aşağıdaki 
+koşullara uymanız durumda geliştirdiğiniz uygulamalarda dağıtımını yapabileceğiniz kodu içerir.
+i.	Kullanım ve Dağıtım Hakkı. 
+•	Yazılımın nesne kodu biçimini kopyalayabilir ve dağıtabilirsiniz.
+•	Üçüncü Taraf Dağıtım. Uygulamalarınızın dağıtımcılarının, söz konusu uygulamaların bir 
+parçası olarak Dağıtılabilir Kodu kopyalamalarına ve dağıtmalarına izin verebilirsiniz.
+ii.	Dağıtım Gereksinimleri. Dağıttığınız herhangi bir Dağıtılabilir Kod için
+•	Dağıtılabilir Kodu tek başına bir dağıtım olarak değil, uygulamalarınız içinde Dağıtılabilir 
+kullanmalısınız;
+•	dağıtımcılardan ve harici son kullanıcılardan, kodları en az bu sözleşmenin kapsamı kadar 
+koruyucu şartları kabul etmelerini istemelisiniz ve
+•	yalnızca değiştirilmemiş Dağıtılabilir Koda dayalı herhangi bir talep olması durumu 
+dışında, uygulamalarınızın dağıtımı veya kullanımıyla ilgili olarak ortaya çıkan avukatlık 
+masrafları dâhil her türlü talebi Microsoft'a tazmin etmeli, onu savunmalı ve zarara karşı 
+korumalısınız.
+iii.	Dağıtım Sınırlamaları. Şunları yapamazsınız:
+•	Microsoft'un ticari markalarını uygulamalarınızın adlarında kullanmak veya 
+uygulamalarınızın Microsoft kaynaklı olduğunu veya Microsoft tarafından desteklendiğini 
+düşündürecek şekilde kullanmak veya
+•	Herhangi bir bölümü bir Kapsam Dışı Lisansa konu olacak şekilde Dağıtılabilir Kodun 
+kaynak kodunu değiştirmek veya dağıtmak. "Kapsam Dışı Lisans"; kodun kullanım, 
+değişiklik veya dağıtım koşulu olarak (i) kodun, kaynak kod biçiminde açıklanmasını ya da 
+dağıtılmasını veya (ii) diğer kişilerin onu değiştirme hakkının olmasını gerektiren lisanstır.
+4.	VERİLER.
+a.	Veri Toplama. Yazılım, sizin hakkınızda ve yazılımı kullanımınız hakkında bilgi toplayıp 
+Microsoft'a gönderebilir. Microsoft bu bilgileri, hizmetleri sağlamak ve ürün ve hizmetlerimizi 
+iyileştirmek için kullanabilir.  Yazılım belgelerinde açıklandığı gibi bu senaryoların birçoğunu geri 
+çevirebilir, ancak tümünü geri çeviremezsiniz.  Ayrıca yazılımda, sizin ve Microsoft'un 
+uygulamalarınızın kullanıcılarından veri toplamasına olanak sağlayan bazı özellikler vardır. Bu 
+özellikleri kullanmanız durumunda, uygulamalarınızın kullanıcılarına uygun bildirimleri sağlamak da 
+dâhil, ilgili yasalara uymanız ve bu bildirimlerle birlikte, Microsoft'un gizlilik beyanını sağlamanız 
+gerekir. Gizlilik bildirimimiz, https://go.microsoft.com/fwlink/?LinkID=824704 adresinde 
+bulunmaktadır. Veri toplama ve kullanımı hakkında daha fazla bilgiyi, yazılım belgelerinde ve 
+gizlilik bildirimimizde bulabilirsiniz. Yazılımı kullanmanız, bu uygulamalara verdiğiniz onay yerine 
+geçer.
+b.	Kişisel Verilerin İşlenmesi. Microsoft’un yazılımla bağlantılı olarak bir kişisel veri işleyen veya 
+alt işleyen olması halinde, Microsoft, https://docs.microsoft.com/en-us/legal/gdpr adresinde yer 
+alan Çevrimiçi Hizmet Şartlarının Avrupa Birliği Genel Veri Koruma Düzenlemesi Şartlarını 25 
+Mayıs 2018 itibarıyla tüm müşterilere taahhüt eder.
+5.	LİSANS KAPSAMI. Yazılımın satışı yapılmamakta, lisansı verilmektedir. Bu sözleşme yalnızca yazılımı 
+kullanımınızla ilgili bazı haklar vermektedir. Microsoft diğer hakların tümünü saklı tutar. Bu 
+sınırlamalara rağmen ilgili yasalar ilave haklar sağlamıyorsa yazılımı yalnızca bu sözleşmede açıkça izin 
+verildiği şekilde kullanabilirsiniz. Bunu yaparken, yazılımda size yazılımı yalnızca belirli şekillerde 
+kullanma izni veren her türlü teknik sınırlamaya uymanız gerekir. Şunları yapamazsınız:
+•	yazılımın teknik sınırlamalarını aşacak çözümler üretmek;
+•	yazılıma dâhil edilmiş olabilecek belirli açık kaynaklı bileşenlerin kullanımının tabi olduğu üçüncü 
+taraf lisans verme şartlarının, yalnızca gerekli gördüğü durumlar ve izin verdiği ölçü dışında, 
+yazılımı tersine mühendislik işlemine tabi tutmak, kaynak koda dönüştürmek veya assembler 
+diline çevirmek ya da yazılımın kaynak kodunu başka bir şekilde türetme girişiminde bulunmak;
+•	Microsoft veya tedarikçilerinin yazılımdaki herhangi bir bildirimini kaldırmak, küçültmek, 
+engellemek ya da değiştirmek; 
+•	yazılımı kanuna aykırı bir şekilde kullanmak veya
+•	yazılımı paylaşmak, yayımlamak, kiralamak ya da finansal kiralama yoluyla satmak veya yazılımı 
+başkalarının kullanımı için bağımsız teklif olarak sağlamak ya da yazılımı veya bu anlaşmayı 
+herhangi bir üçüncü tarafa devretmek.
+6.	İHRACAT KISITLAMALARI. Yazılım konusunda geçerli olan tüm yurt içi ve uluslararası ihracat 
+yasalarına ve düzenlemelerine; hedef yer, son kullanıcı ve son kullanım sınırlamaları da dahil olmak 
+üzere, uygun şekilde davranmanız gerekmektedir. İhracat kısıtlamalarıyla ilgili daha fazla bilgi için şu 
+adresi ziyaret edin, www.microsoft.com/exporting.  
+7.	DESTEK HİZMETLERİ. Bu yazılım, "olduğu gibi" sunulduğundan dolayı, yazılım için destek hizmeti 
+sağlayamayabiliriz.
+8.	ANLAŞMANIN TAMAMI. Bu sözleşme ve eklerin, güncelleştirmelerin, İnternet tabanlı hizmetlerin ve 
+kullandığınız destek hizmetlerinin koşulları, yazılım ve destek hizmetlerine yönelik sözleşmenin 
+tamamını oluşturur.
+9.	İLGİLİ YASALAR.  Yazılımı Amerika Birleşik Devletleri'nde aldıysanız, bu sözleşmenin yorumlanması 
+ve ihlali taleplerinde Washington eyaleti yasaları ve diğer tüm taleplerde ise yaşadığınız eyaletin 
+yasaları geçerli olacaktır. Bu yazılımı başka bir ülkede satın aldıysanız, o ülkenin yasaları geçerli 
+olacaktır.
+10.	TÜKETİCİ HAKLARI, BÖLGESEL DEĞİŞİMLER. Bu sözleşme belirli yasal hakları açıklamaktadır. 
+Yaşadığınız ülke veya devletin kanunları kapsamında tüketici hakları da dâhil olmak üzere başka 
+haklara sahip olabilirsiniz. Microsoft ile aranızdaki ilişkiden ayrı olarak ve bu ilişkinin dışında ayrıca, 
+yazılımı aldığınız tarafla ilgili başka haklara da sahip olabilirsiniz. Bu sözleşme, devletinizin veya 
+ülkenizin yasalarının izin vermediği durumlarda, sahip olduğunuz bu diğer hakları değiştirmez. 
+Örneğin, yazılımı aşağıdaki bölgelerden birinde aldıysanız veya zorunlu ülke yasaları geçerliyse, 
+aşağıdaki hükümler sizin için geçerli olur:
+a)	Avustralya. Avustralya Tüketici Yasası kapsamında kanuni garantileriniz bulunmaktadır ve bu 
+sözleşmedeki hiçbir şey, bu hakları etkilemeyi amaçlamaz.
+b)	Kanada. Bu yazılımı Kanada'da satın almış olmanız durumunda, otomatik güncelleştirme özelliğini 
+kapatarak, cihazınızın internet bağlantısını keserek (öte yandan, internete yeniden bağlanmanız 
+durumunda ve bağlandığınızda, yazılım güncelleştirmeleri denetlemeye ve yüklemeye devam 
+edecektir) veya yazılımı kaldırarak güncelleştirmeleri almayı durdurabilirsiniz. Varsa, ürün belgeleri 
+de elinizde bulunan cihazın veya yazılımın güncelleştirmelerini kapatmaya ilişkin açıklamalara yer 
+verebilir.
+c)	Almanya ve Avusturya.
+(i)	Garanti. Yazılım büyük ölçüde, yazılıma eşlik eden her türlü Microsoft materyalinde 
+açıklandığı şekilde çalışacaktır. Ancak Microsoft, yazılımla ilgili olarak, sözleşmeden doğan hiçbir 
+taahhüt vermez.
+(ii)	Sorumluluğun Sınırlandırılması. Kasıtlı davranışın, ağır ihmalin, Ürün Sorumluluğu 
+Kanununa dayalı iddiaların yanı sıra, can kaybı veya kişisel ya da fiziksel yaralanma durumunda 
+Microsoft, kanun uyarınca sorumlu olur.
+Yukarıda anılan (ii). maddesine tabi olmak üzere Microsoft'un sözleşme yükümlülüklerini biçimde ihlal 
+etmesi ve bu yükümlülüklerin yerine getirilmesinin söz konusu anlaşmanın tam ifasına olanak 
+sağlayacak, ihlalinin bu anlaşmanın amacını tehlikeye düşürecek ve bunlara uygunluğa bir tarafın 
+sürekli güvenmesini sağlayacak nitelikte (kısaca "temel yükümlülükler") olması durumunda Microsoft, 
+yalnızca hafif ihmal için sorumlu olacaktır. Diğer hafif ihmal hallerinde, Microsoft'un hafif ihmaller ile 
+ilgili yükümlülüğü bulunmayacaktır.
+11.	GARANTİ REDDİ BEYANI. YAZILIMIN LİSANSI “OLDUĞU GİBİ” VERİLMEKTEDİR. 
+KULLANIMINA İLİŞKİN RİSKLER SİZİN TARAFINIZDAN ÜSTLENİLİR. MICROSOFT 
+TARAFINDAN HİÇBİR AÇIK GARANTİ VERİLMEMEKTE VEYA KOŞUL İLERİ 
+SÜRÜLMEMEKTEDİR. MICROSOFT, BÖLGENİZDEKİ YASALAR ÇERÇEVESİNDE İZİN 
+VERİLEN ÖLÇÜDE, TİCARİ OLARAK SATILABİLME, BELİRLİ BİR AMACA UYGUNLUK VE 
+İHLAL BULUNMAMASI İLE İLGİLİ ZIMNİ GARANTİLERİ KAPSAM DIŞINDA BIRAKIR. 
+12.	TELAFİ VE ZARARLARIN SINIRLANDIRILMASI VE HARİÇ TUTULMASI. MICROSOFT VE 
+TEDARİKÇİLERİNDEN 5,00 ABD DOLARINA KADAR DOĞRUDAN ZARARLARI GERİ 
+ALABİLİRSİNİZ. NETİCEDE OLUŞAN ZARARLAR, KAR KAYBI ZARARLARI, ÖZEL, DOLAYLI 
+VEYA MÜSPET ZARARLAR DAHİL DİĞER ZARARLARI GERİ ALAMAZSINIZ.
+Bu sınırlama (a) üçüncü kişi İnternet sitelerinde ya da üçüncü kişi uygulamalarında yazılım, hizmetler, 
+içerik (kod dahil) ile bağlantılı herhangi bir şey ve (b) ilgili yasaların izin verdiği ölçüde sözleşme ihlali, 
+garanti, taahhüt ya da koşul ihlali, kusursuz sorumluluk, ihmal ya da diğer haksız fiil için de geçerlidir.
+Bu sınırlama, Microsoft'un zararın oluşma olasılığını bilmesi veya bilmesinin gerekmesi halinde de 
+geçerlidir. Yukarıdaki sınırlama veya hariç tutma; eyaletiniz veya ülkeniz müspet zararlarla bağlantılı, 
+neticede oluşan veya diğer zararların sınırlanmasına veya hariç tutulmasına izin vermediği takdirde 
+sizin için geçerli olmayabilir.
+

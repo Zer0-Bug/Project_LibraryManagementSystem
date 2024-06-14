@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<link href="~/web2/css/bootstrap.css" rel="stylesheet" />
+<link href="~/web2/css/jqvmap.css" rel="stylesheet" />
+<link href="~/web2/css/style.css" rel="stylesheet" />
+<script src="~/web2/js/jquery.min.js"></script>
+<script src="~/web2/js/jquery.vmap.js"></script>
+<script src="~/web2/js/jquery.vmap.sampledata.js"></script>
+<script src="~/web2/js/jquery.vmap.world.js"></script>
+<script>
+    $(document).ready(function (c) {
+        $('.alert-close6').on('click', function (c) {
+            $('.world-map').fadeOut('slow', function (c) {
+                $('.world-map').remove();
+            });
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#vmap').vectorMap({
+            map: 'world_en',
+            backgroundColor: '#333333',
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#C8EEFF', '#006491'],
+            normalizeFunction: 'polynomial'
+        });
+    });
+</script>
+
+<div class="total-world" style="margin-top:40px">
+    <div class="world-map">
+        <div class="alert-close6"> </div>
+        <h3>Sales around world</h3>
+        <p><span class="color1"></span>40%<span class="color2"></span>12%<span class="color3"></span>11%<span class="color4"></span>10%<span class="color5"></span>18%</p>
+        <div class="clearfix"></div>
+        <div id="vmap" style="width: 600px; height: 400px;"></div>
+    </div>
+    <div class="site-report">
+        <div class="alert-close3"> </div>
+        <h3>Site Report</h3>
+        <div class="skills-top">
+            <h5>Sales</h5>
+            <h4>45%</h4>
+            <div class="clearfix"></div>
+            <div class="skills">
+                <div class="skill" style="width:45%"></div>
+            </div>
+        </div>
+        <div class="skills-top">
+            <h5>Kitap Listesi</h5>
+            <h4>34%</h4>
+            <div class="clearfix"></div>
+            <div class="skills">
+                <div class="skill1" style="width:34%"></div>
+            </div>
+        </div>
+        <div class="skills-top">
+            <h5>New Orders</h5>
+            <h4>89%</h4>
+            <div class="clearfix"></div>
+            <div class="skills">
+                <div class="skill2" style="width:89%"></div>
+            </div>
+        </div>
+        <p>It is a long established fact that a re-ader will be distracted by the readable content of a page when looking at its layout.</p>
+    </div>
+    <div class="clearfix"></div>
+</div>

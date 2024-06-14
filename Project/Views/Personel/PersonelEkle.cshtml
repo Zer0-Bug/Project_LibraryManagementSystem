@@ -1,0 +1,33 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_personel
+@{
+    ViewBag.Title = "PersonelEkle";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>Personel Adı </label>
+        @*<input type="text" class="form-control" name="PersonelAdSoyad" />*@
+        @Html.TextBoxFor(x => x.PersonelAdSoyad, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.PersonelAdSoyad, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Personel email </label>
+        @*<input type="text" class="form-control" name="Personel email" />*@
+        @Html.TextBoxFor(x => x.PersonelEmail, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.PersonelEmail, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Personel Şifre </label>
+        @*<input type="text" class="form-control" name="Personel Şifre" />*@
+        @Html.TextBoxFor(x => x.PersonelPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.PersonelPassword, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn1">Personel ekle</button>
+
+    </div>
+
+</form>
+

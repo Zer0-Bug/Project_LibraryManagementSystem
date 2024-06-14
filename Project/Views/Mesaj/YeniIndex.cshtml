@@ -1,0 +1,28 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_mesajlar
+@{
+    ViewBag.Title = "YeniIndex";
+    Layout = "~/Views/Shared/_LayoutPanel.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>Alıcı Mail </label>
+        @Html.TextBoxFor(x => x.Alıcı, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Konu </label>
+        @Html.TextBoxFor(x => x.Konu, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>İçerik </label>
+        @Html.TextAreaFor(x => x.Icerik, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn1">Gönder</button>
+
+    </div>
+
+</form>
+
+

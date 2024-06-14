@@ -1,0 +1,71 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mvc5 Kütüphane</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates,
+		Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <!-- /meta tags -->
+    <!-- custom style sheet -->
+    <link href="~/weblogin/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- /custom style sheet -->
+    <!-- fontawesome css -->
+    <link href="~/weblogin/css/fontawesome-all.css" rel="stylesheet" />
+    <!-- /fontawesome css -->
+    <!-- google fonts-->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <!-- /google fonts-->
+
+</head>
+
+
+<body>
+    <h1>Kütüphane Giriş Paneli</h1>
+    <div class=" w3l-login-form">
+        <h2>Login</h2>
+        @using (Html.BeginForm("GirisYap", "Login", FormMethod.Post))
+        {
+            <div class=" w3l-form-group">
+                <label>Kullanıcı Adı:</label>
+                <div class="group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="form-control" placeholder="kullanıcı adınız" required="required" name="MAIL" />
+                </div>
+            </div>
+            <div class=" w3l-form-group">
+                <label>Şifre:</label>
+                <div class="group">
+                    <i class="fas fa-unlock"></i>
+                    <input type="password" class="form-control" placeholder="şifreniz" required="required" name="SIFRE" />
+                </div>
+            </div>
+            <div class="forgot">
+                <a href="#">Şifremi Unuttum?</a>
+                <p><input type="checkbox"> Beni Hatırla</p>
+            </div>
+            <button type="submit">Giriş Yap</button>
+        }
+        <p class=" w3l-register-p">Bie Hesabınız Yok mu?<a href="/KayitOl/Kayit/" class="register"> Kayıt OL</a></p>
+    </div>
+    <footer>
+        <p class="copyright-agileinfo"> &copy; 2018 Material Login Form. Tüm Hakları Saklıdır | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </footer>
+
+</body>
+
+</html>

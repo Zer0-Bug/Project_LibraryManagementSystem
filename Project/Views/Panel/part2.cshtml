@@ -1,0 +1,126 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_üyeler
+@using (Html.BeginForm("PanelIndex2", "Panel", FormMethod.Post))
+
+{
+
+    <form class="form-horizontal">
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Ad</label>
+
+            <div class="col-sm-10">
+
+                @Html.TextBoxFor(x => x.ÜyeAd, new { @class = "form-control" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Soyad</label>
+
+            <div class="col-sm-10">
+
+                @Html.TextBoxFor(x => x.ÜyeSoyad, new { @class = "form-control" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Kullanıcı Adı</label>
+
+            <div class="col-sm-10">
+
+                @Html.TextBoxFor(x => x.KullanıcıAd, new { @class = "form-control" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Şifre</label>
+
+            <div class="col-sm-10">
+
+                <input type="text" class="form-control" name="ÜyeSifre" value="" id="passwordUpdate" />
+                @Html.ValidationMessageFor(x => x.ÜyeSifre, "", new { @style = "color:red" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Fotoğraf</label>
+
+            <div class="col-sm-10">
+
+                @Html.TextBoxFor(x => x.Foto, new { @class = "form-control" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Okul</label>
+
+            <div class="col-sm-10">
+
+                @Html.TextBoxFor(x => x.okul, new { @class = "form-control" })
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <div class="offset-sm-2 col-sm-10">
+
+                <div class="checkbox">
+
+                    <label>
+
+                        <input type="checkbox"> Şartları okudum <a href="#">kabul ediyorum</a>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="form-group row">
+
+            <div class="offset-sm-2 col-sm-10">
+
+                <button type="submit" class="btn btn-danger" id="Update_Button">Güncelle</button>
+
+            </div>
+
+        </div>
+
+    </form>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#Update_Button').click(function (event) {
+                var passwordLength = $('#passwordUpdate').val().length;
+                if (passwordLength < 7) {
+                    event.preventDefault(); // Prevent the form from submitting
+                    swal("Password length must be between 7-50 ");
+                }
+            });
+        });
+    </script>
+
+
+}

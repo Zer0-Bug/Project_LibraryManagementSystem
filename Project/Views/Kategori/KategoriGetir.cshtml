@@ -1,0 +1,24 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_kategori
+@{
+    ViewBag.Title = "KategoriGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("KategoriGuncelle", "Kategori", FormMethod.Post))//form method post olduğunda çalısacak kategori kontrollerine baglı güncelle altında
+            {
+                <div style="margin-bottom:15px"></div>
+                <div class="form-group">
+                    @Html.LabelFor(k=>k.ID) 
+                    @Html.TextBoxFor(k=>k.ID, new { @class = "form-control", @readonly = "readonly"})
+                </div>/*labelfor amacı sütunun adı ne ise onu getirmek database de ki sütun adı
+                      text box for amacı da içinde gecerli olan degeri getirmek yani kutucuğun içinin dolu olmasını sağlıyo*/
+            
+                <div class="form-group">
+                    @Html.LabelFor(k => k.Ad)
+                    @Html.TextBoxFor(k => k.Ad, new { @class = "form-control" })
+                </div> 
+                <div>
+                    <button class="btn btn-warning">Güncelle</button>
+                </div>
+            }
+
